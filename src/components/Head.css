@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100vh;
+   gap: 30px;
+}
+
+.marker p b {
+    background-color: #FFDA79;
+    padding: 10px;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.remains h1{
+    margin-top: 10px;
+    font-size: 65px;
+    font-family: 'Source Serif 4', serif; /* Corrected font family */
+    gap: 15px;
+}
+
+.typos p{
+    font-weight: 600;
+    font-size: 18px;
+    color:  #0D0C22;
+}
+button{
+    border-radius: 35px;
+    background-color: #0D0C22;
+    color: white;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    margin-top: 5px;
+    font-weight: 600;
+}
+::selection {
+    background-color: #ffbb8b;
+    color: black;
+    opacity: 1; /* Set the text color to contrast with the background */
+}
