@@ -1,0 +1,37 @@
+.navbar{
+  display: flex;
+  background-color: transparent;
+}
+.left-items{
+  display: flex;
+  gap: 25px;
+  padding-top: 45px;
+  padding-left: 45px;
+  font-size: small;
+}
+.middle img{
+  padding-left: 125px;
+  width: 350px;
+  padding-top: 10px;
+}
+.right{
+  padding-top: 20px;
+  padding-left: 180px;
+  padding-right: 5px;
+}
+.right .btn{
+  padding: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.right input{
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+  
+}
